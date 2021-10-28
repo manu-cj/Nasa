@@ -119,7 +119,7 @@ ul {
 
     transform: scale(0);
     transform-origin: top center;
-    transition: all 300ms ease-in-out;
+    transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
     margin-top: 30px;
@@ -132,19 +132,24 @@ ul {
     color: white;
     transform: scale(0);
     transform-origin: top center;
-    transition: all 300ms ease-in-out;
+    transition: all 10ms ease-in-out;
 
 }
+
 
 
 .sub-menudeux li:last-child {
     border-bottom: 0;
 }
+.menudeux:hover {
+    background-color: #093fa8;
+}
+
 .sub-menudeux li:hover {
 
     background-color: #121481;
 }
-.menudeux > li:hover .sub-menudeuxli {
+.menudeux > li:hover .sub-menudeux li {
     transform: scale(1);
 }
 .menudeux > li:hover .sub-menudeux {
