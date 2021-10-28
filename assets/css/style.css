@@ -23,23 +23,22 @@ header {
 
 nav {
 
-    padding-bottom: 50px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 13rem;
+
 
 }
 
 .menu {
     display: block;
+    padding-bottom: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 13rem;
 }
 .menu > li {
 
     color: white;
-    width: 130px;
-    height: 50px;
-    line-height: 20px;
+    width: 100px;
     offset-path: 0%;
     cursor: pointer;
     font-size: 1.4em;
@@ -51,7 +50,7 @@ nav {
 
     transform: scale(0);
     transform-origin: top center;
-    transition: all 300ms ease-in-out;
+    transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
     margin-top: 30px;
@@ -64,13 +63,18 @@ nav {
     color: white;
     transform: scale(0);
     transform-origin: top center;
-    transition: all 300ms ease-in-out;
+    transition: all 10ms ease-in-out;
 
 }
 
 .sub-menu li:last-child {
     border-bottom: 0;
 }
+
+.menu:hover {
+    background-color: #093fa8;
+}
+
 .sub-menu li:hover {
 
     background-color: #121481;
@@ -86,8 +90,68 @@ ul {
     list-style-type: none;
 
 }
-#menu-déroulant {
-    background-size: cover;
-    background-position: center;
+
+
+.menudeux {
+    display: block;
+    padding-bottom: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 20rem;
+    border-right:  1px gray;
+}
+
+.menudeux > li {
+
+    color: white;
+    width: 130px;
+    height: 50px;
+    line-height: 20px;
+    offset-path: 0%;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding-top: 30px;
+
+}
+
+.sub-menudeux {
+
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 300ms ease-in-out;
+    width: 300px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.sub-menudeux li {
+    font-size: 20px;
+    background-color: #093fa8;
+    padding: 8px 0;
+    color: white;
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 300ms ease-in-out;
+
+}
+
+
+.sub-menudeux li:last-child {
+    border-bottom: 0;
+}
+.sub-menudeux li:hover {
+
+    background-color: #121481;
+}
+.menudeux > li:hover .sub-menudeuxli {
+    transform: scale(1);
+}
+.menudeux > li:hover .sub-menudeux {
+    transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
 
 }
