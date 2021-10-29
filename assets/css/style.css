@@ -10,7 +10,7 @@
 body {
     background-color: black;
     width: 100%;
-    font-size: 62,02rem;
+    font-size: 62.02%;
 }
 
 header {
@@ -486,8 +486,8 @@ ul {
 
 #searchbar {
     position:relative;
-    bottom: 50px;
-    right: 7rem;
+    bottom: 70px;
+    right: 11rem;
     width:200px;
     height:auto;
     text-align: center;
@@ -523,9 +523,10 @@ i {
 }
 
 .deuxiememenu {
+    font-size: 1.5em;
     color: white;
     display: inline-block;
-    margin-left: 15rem;
+    margin-left: 17rem;
     position: relative;
     bottom: 30px;
     width: auto;
@@ -558,6 +559,11 @@ section {
     display: inline-block;
 }
 
+.image {
+    width: 100%;
+    height: 600px;
+}
+
 .art1 {
     background-position: center;
     background-repeat: no-repeat;
@@ -568,64 +574,64 @@ section {
     margin: 10px;
 }
 
-.art2 {
-    float: right;
-    position: relative;
-    right: 300px;
-    bottom: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../img/51404585793_8803f6e1aa_k.jpg);
-    background-size: cover;
-    width: 18em;
-    height: 16em;
-    border: solid 1px white;
-    overflow: visible;
-    margin: 10px;
-
-}
-
-.art3 {
-    color: white;
-    float: right;
-    position: relative;
-    left: 310px;
-    bottom: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1965cc;
-    width: 18em;
-    height: 18em;
-    border: solid 1px white;
-    overflow: visible;
-    margin: 10px;
-}
-
 .tag {
+    font-size: 1.7em;
     width: 100%;
-    background-color: #e3e2e2;
+    height: 5%;
+    background-color: #d3d3d3;
     opacity: 80%;
-    padding: 5px;
-    font-size: 1.2em;
-    position: relative;
-    top: 96%;
 }
-
-
 
 .tag:hover {
     background-color: white;
-    opacity: 100%;
 }
 
-.art3 a {
+.art2 {
+    position: relative;
+    bottom: 600px;
+    left: 50%;
+    width: 50%;
+    height: 300px;
+    background-color: white;
+
+}
+
+.spacex {
+    padding: 1%;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/51404585793_8803f6e1aa_k.jpg);
+}
+
+.nasae {
+    margin-left: 50%;
+    position: relative;
+    bottom: 100%;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-color: #093fa8;
+    padding: 1%;
+}
+
+.nasae a {
+    padding: 5px;
+    font-size: 1.5em;
     color: white;
 }
 
-.art3 > h2 {
-   font-size: 1em;
+.art4 {
+    width: 50%;
+    height: 50%;
+    background-image: url(../img/sdo_x1_flare_10-28-21_131.jpg);
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    bottom: 102%;
+
 }
+
 
 
 
