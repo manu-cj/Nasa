@@ -635,7 +635,6 @@ section {
 .image2 {
     width: 100%;
     height: 600px;
-    background-color: #417388;
 }
 
 .art5 {
@@ -657,9 +656,65 @@ section {
     height: 50%;
     background-image: url(../img/sarah_yearicks.png);
     background-size: cover;
+    background-position: center;
     margin-left: 25%;
     position: relative;
     bottom: 100%;
+}
+
+.huitetneuf {
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    position: relative;
+    bottom: 100%;
+    background-color: white;
+
+}
+
+.art8 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/users_advisory_group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.art9 {
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    position: relative;
+    bottom: 100%;
+    background-image: url(../img/iss063e055171.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.art10 {
+    width: 25%;
+    height: 50%;
+    margin-left: 75%;
+    position: relative;
+    bottom: 200%;
+    background-image: url(../img/wallpaper_gamma_rays.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.art11 {
+    width: 25%;
+    height: 50%;
+    margin-left: 75%;
+    position: relative;
+    bottom: 200%;
+    background-image: url(../img/trappist1f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
