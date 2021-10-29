@@ -10,15 +10,24 @@
 body {
     background-color: black;
     width: 100%;
+    font-size: 62,02rem;
 }
 
 header {
     display: inline-block;
     width: 100%;
-    height: 15%;
+    height: 100px;
     background-image: url(../img/abstrait-espace-etoile-etoiles-brillantes-dans-ciel-nocturne-banniere_213524-284.jpg);
-    margin-left: 20px;
-    margin-top: 20px;
+    font-size: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 5rem;
 }
 
 nav {
@@ -32,12 +41,14 @@ nav {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 11rem;
+    left: 24rem;
 }
+
 .menu > li {
 
     color: white;
     width: 100px;
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -96,7 +107,7 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 18rem;
+    left: 30rem;
     border-right:  1px gray;
 }
 
@@ -104,7 +115,7 @@ ul {
 
     color: white;
     width: 100px;
-
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -164,7 +175,7 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 25rem;
+    left: 37rem;
     border-right:  1px gray;
 }
 
@@ -172,7 +183,7 @@ ul {
 
     color: white;
     width: 100px;
-
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -203,7 +214,7 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 32rem;
+    left: 44rem;
     border-right:  1px gray;
 }
 
@@ -211,7 +222,7 @@ ul {
 
     color: white;
     width: 150px;
-
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -272,7 +283,7 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 42rem;
+    left: 54rem;
     border-right:  1px gray;
 }
 
@@ -280,6 +291,7 @@ ul {
 
     color: white;
     width: 120px;
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -340,7 +352,7 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 50rem;
+    left: 62rem;
     border-right:  1px gray;
 }
 
@@ -348,6 +360,7 @@ ul {
 
     color: white;
     width: 70px;
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -408,14 +421,15 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 55rem;
+    left: 67rem;
     border-right:  1px gray;
 }
 
 .menu7 > li {
 
     color: white;
-    width: 180px;
+    width: 160px;
+    height: 37px;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -469,3 +483,109 @@ ul {
     list-style-type: none;
 
 }
+
+#searchbar {
+    position:relative;
+    bottom: 50px;
+    right: 7rem;
+    width:200px;
+    height:auto;
+    text-align: center;
+    float: right;
+}
+
+.formulaire {
+    display:inline-block;
+    position: relative;
+    bottom: 40px;
+}
+
+.formulaire .champ {
+    width:150px;
+    height:40px;
+    background-color: #333131;
+    border: solid 1px #333131;
+}
+
+input[type="text"]:focus {
+    border: white;
+}
+
+input::placeholder {
+    padding-left: 15px;
+
+}
+
+
+i {
+    color: white;
+    margin-left: 15px;
+}
+
+.deuxiememenu {
+    color: white;
+    display: inline-block;
+    margin-left: 15rem;
+    position: relative;
+    bottom: 30px;
+    width: auto;
+    height: 40px;
+    background-color: #605f5f;
+}
+
+.bottommenu {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+
+}
+
+.bottommenu:hover {
+    background-color: #a19f9f;
+    cursor: pointer;
+}
+
+
+/**Section**/
+
+section {
+    width: 80%;
+    height: auto;
+    border: solid 1px #f1cbbe;
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+.art1 {
+    width: 50%;
+    height: 600px;
+    margin: 10px;
+}
+
+.art2 {
+    float: right;
+    width: 25%;
+    height: 300px;
+    border: solid 1px white;
+}
+
+.tag {
+    width: auto;
+    height: auto;
+    background-color: #e3e2e2;
+    opacity: 80%;
+    padding: 5px;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 40px;
+}
+
+.tag:hover {
+    background-color: white;
+    opacity: 100%;
+}
+
+
+
+
