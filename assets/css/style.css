@@ -619,6 +619,7 @@ section {
     padding: 5px;
     font-size: 1.5em;
     color: white;
+    margin: 10px;
 }
 
 .art4 {
@@ -631,7 +632,35 @@ section {
     bottom: 102%;
 
 }
+.image2 {
+    width: 100%;
+    height: 600px;
+    background-color: #417388;
+}
 
+.art5 {
+    width: 25%;
+    height: 50%;
+    background-image: url(../img/ozone2021_2.png);
+    background-size: cover;
+}
+.art6 {
+    width: 25%;
+    height: 50%;
+    background-image: url(../img/steam_day_web_release.jpg);
+    background-size: cover;
+
+}
+
+.art7 {
+    width: 50%;
+    height: 50%;
+    background-image: url(../img/sarah_yearicks.png);
+    background-size: cover;
+    margin-left: 25%;
+    position: relative;
+    bottom: 100%;
+}
 
 
 
