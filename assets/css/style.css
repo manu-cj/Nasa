@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 
 }
 
@@ -15,7 +15,7 @@ body {
 header {
     display: inline-block;
     width: 100%;
-    height: 25%;
+    height: 15%;
     background-image: url(../img/abstrait-espace-etoile-etoiles-brillantes-dans-ciel-nocturne-banniere_213524-284.jpg);
     margin-left: 20px;
     margin-top: 20px;
@@ -32,13 +32,12 @@ nav {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 13rem;
+    left: 11rem;
 }
 .menu > li {
 
     color: white;
     width: 100px;
-    offset-path: 0%;
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -97,7 +96,7 @@ ul {
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 20rem;
+    left: 18rem;
     border-right:  1px gray;
 }
 
@@ -105,7 +104,7 @@ ul {
 
     color: white;
     width: 100px;
-    offset-path: 0%;
+
     cursor: pointer;
     font-size: 1.4em;
     padding-top: 30px;
@@ -152,6 +151,317 @@ ul {
     transform: scale(1);
 }
 .menudeux > li:hover .sub-menudeux {
+    transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.menu3 {
+    display: block;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 25rem;
+    border-right:  1px gray;
+}
+
+.menu3 > li {
+
+    color: white;
+    width: 100px;
+
+    cursor: pointer;
+    font-size: 1.4em;
+    padding-top: 30px;
+
+}
+
+
+.menu3:hover {
+    background-color: #093fa8;
+}
+
+
+.menu3 > li:hover {
+    transform: scale(1);
+}
+.menu3 > li:hover {
+    transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.menu4 {
+
+    display: block;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 32rem;
+    border-right:  1px gray;
+}
+
+.menu4 > li {
+
+    color: white;
+    width: 150px;
+
+    cursor: pointer;
+    font-size: 1.4em;
+    padding-top: 30px;
+
+}
+
+.sub-menu4 {
+
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+    width: 300px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.sub-menu4 li {
+    width: 65%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #093fa8;
+    padding: 8px 0 0 8px;
+    color: white;
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+
+}
+
+
+
+.sub-menu4 li:last-child {
+    border-bottom: 0;
+}
+.menu4:hover {
+    background-color: #093fa8;
+}
+
+.sub-menu4 li:hover {
+
+    background-color: #121481;
+}
+.menu4 > li:hover .sub-menu4 li {
+    transform: scale(1);
+}
+.menu4 > li:hover .sub-menu4 {
+    transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.menu5 {
+
+    display: block;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 42rem;
+    border-right:  1px gray;
+}
+
+.menu5 > li {
+
+    color: white;
+    width: 120px;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding-top: 30px;
+
+}
+
+.sub-menu5 {
+
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+    width: 300px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.sub-menu5 li {
+    width: 65%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #093fa8;
+    padding: 8px 0 0 8px;
+    color: white;
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+
+}
+
+
+
+.sub-menu5 li:last-child {
+    border-bottom: 0;
+}
+.menu5:hover {
+    background-color: #093fa8;
+}
+
+.sub-menu5 li:hover {
+
+    background-color: #121481;
+}
+.menu5 > li:hover .sub-menu5 li {
+    transform: scale(1);
+}
+.menu5 > li:hover .sub-menu5 {
+    transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.menu6 {
+
+    display: block;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 50rem;
+    border-right:  1px gray;
+}
+
+.menu6 > li {
+
+    color: white;
+    width: 70px;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding-top: 30px;
+
+}
+
+.sub-menu6 {
+
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+    width: 300px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.sub-menu6 li {
+    width: 65%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #093fa8;
+    padding: 8px 0 0 8px;
+    color: white;
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+
+}
+
+
+
+.sub-menu6 li:last-child {
+    border-bottom: 0;
+}
+.menu6:hover {
+    background-color: #093fa8;
+}
+
+.sub-menu6 li:hover {
+
+    background-color: #121481;
+}
+.menu6 > li:hover .sub-menu6 li {
+    transform: scale(1);
+}
+.menu6 > li:hover .sub-menu6 {
+    transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.menu7 {
+
+    display: block;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 55rem;
+    border-right:  1px gray;
+}
+
+.menu7 > li {
+
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding-top: 30px;
+
+}
+
+.sub-menu7 {
+
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+    width: 300px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.sub-menu7 li {
+    width: 65%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #093fa8;
+    padding: 8px 0 0 8px;
+    color: white;
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 10ms ease-in-out;
+
+}
+
+
+
+.sub-menu7 li:last-child {
+    border-bottom: 0;
+}
+.menu7:hover {
+    background-color: #093fa8;
+}
+
+.sub-menu7 li:hover {
+
+    background-color: #121481;
+}
+.menu7 > li:hover .sub-menu7 li {
+    transform: scale(1);
+}
+.menu7 > li:hover .sub-menu7 {
     transform: scale(1);
 }
 
