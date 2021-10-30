@@ -73,7 +73,7 @@ nav {
     transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
-    margin-top: 30px;
+
 }
 
 .sub-menu li {
@@ -141,7 +141,7 @@ ul {
     transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
-    margin-top: 30px;
+
 }
 
 .sub-menudeux li {
@@ -247,9 +247,9 @@ ul {
     transform: scale(0);
     transform-origin: top center;
     transition: all 10ms ease-in-out;
-    width: 300px;
+    width: 350px;
     height: 10px;
-    margin-top: 30px;
+
 }
 
 .sub-menu4 li {
@@ -318,7 +318,7 @@ ul {
     transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
-    margin-top: 30px;
+
 }
 
 .sub-menu5 li {
@@ -387,7 +387,7 @@ ul {
     transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
-    margin-top: 30px;
+
 }
 
 .sub-menu6 li {
@@ -456,7 +456,7 @@ ul {
     transition: all 10ms ease-in-out;
     width: 300px;
     height: 10px;
-    margin-top: 30px;
+
 }
 
 .sub-menu7 li {
