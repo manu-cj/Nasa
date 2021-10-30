@@ -587,43 +587,47 @@ section {
     margin: 10px;
 }
 
-.tag {
+b {
+    display: block;
     font-size: 1.7em;
     width: 100%;
-    height: 5%;
+    height: auto;
     background-color: #d3d3d3;
     opacity: 80%;
+    position: relative;
+    top: 92%;
 }
 
-.tag:hover {
+b:hover {
     background-color: white;
+    cursor: pointer;
 }
 
 .art2 {
     position: relative;
     bottom: 600px;
-    left: 50%;
-    width: 50%;
-    height: 300px;
-    background-color: white;
+    left: 55%;
+    width: 48%;
+    height: 280px;
+
 
 }
 
 .spacex {
     padding: 1%;
-    width: 50%;
-    height: 100%;
+    width: 45%;
+    height: 95%;
     background-repeat: no-repeat;
     background-image: url(../img/51404585793_8803f6e1aa_k.jpg);
 }
 
 .nasae {
-    margin-left: 50%;
+    margin-left: 48%;
     position: relative;
-    bottom: 100%;
+    bottom: 95%;
     color: white;
-    width: 50%;
-    height: 100%;
+    width: 44%;
+    height: 98%;
     background-color: #093fa8;
     padding: 1%;
 }
@@ -636,13 +640,13 @@ section {
 }
 
 .art4 {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 48%;
     background-image: url(../img/sdo_x1_flare_10-28-21_131.jpg);
     background-size: cover;
     position: relative;
-    left: 50%;
-    bottom: 102%;
+    left: 55%;
+    bottom: 98%;
 
 }
 .image2 {
@@ -651,25 +655,27 @@ section {
 }
 
 .art5 {
-    width: 25%;
-    height: 50%;
+    width: 24%;
+    height: 48%;
     background-image: url(../img/ozone2021_2.png);
     background-size: cover;
 }
 .art6 {
-    width: 25%;
-    height: 50%;
+    margin-top: 1%;
+    width: 24%;
+    height: 48%;
     background-image: url(../img/steam_day_web_release.jpg);
     background-size: cover;
 
 }
 
 .art7 {
-    width: 50%;
-    height: 50%;
+    margin-top: 1%;
+    width: 49%;
+    height: 48%;
     background-image: url(../img/sarah_yearicks.png);
     background-size: cover;
-    background-position: center;
+    background-position: unset;
     margin-left: 25%;
     position: relative;
     bottom: 100%;
@@ -682,13 +688,14 @@ section {
     margin-left: 25%;
     position: relative;
     bottom: 100%;
-    background-color: white;
+
 
 }
 
 .art8 {
-    width: 50%;
-    height: 100%;
+    margin-top: 1%;
+    width: 49%;
+    height: 98%;
     background-image: url(../img/users_advisory_group.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -696,8 +703,9 @@ section {
 }
 
 .art9 {
-    width: 50%;
-    height: 100%;
+    margin-top: 1%;
+    width: 49%;
+    height: 98%;
     margin-left: 50%;
     position: relative;
     bottom: 100%;
@@ -708,8 +716,8 @@ section {
 }
 
 .art10 {
-    width: 25%;
-    height: 50%;
+    width: 24%;
+    height: 49%;
     margin-left: 75%;
     position: relative;
     bottom: 200%;
@@ -719,8 +727,10 @@ section {
     background-position: center;
 }
 .art11 {
-    width: 25%;
-    height: 50%;
+
+    margin-top: 0.5%;
+    width: 24%;
+    height: 49%;
     margin-left: 75%;
     position: relative;
     bottom: 200%;
@@ -731,7 +741,7 @@ section {
 }
 
 .more {
-    margin-top: 25px;
+    margin-top: 50px;
     width: 100%;
     height: 40px;
     background-color: #2f7aa9;
@@ -739,6 +749,7 @@ section {
     text-align: center;
     color: white;
     padding-top: 10px;
+    text-transform: capitalize;
 }
 .more a {
     color: white;
