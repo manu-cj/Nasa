@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 
 * {
     margin: 0;
@@ -11,15 +13,17 @@ body {
     background-color: black;
     width: 100%;
     font-size: 62.02%;
+    font-family: 'Titillium Web', sans-serif;
 }
+
 
 header {
 
     display: inline-block;
-    width: 70%;
+    width: 80%;
     height: 130px;
     background-image: url(../img/abstrait-espace-etoile-etoiles-brillantes-dans-ciel-nocturne-banniere_213524-284.jpg);
-    font-size: 1em;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -28,7 +32,8 @@ header {
 }
 
 .logo {
-    margin-left: 5rem;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 nav {
@@ -36,23 +41,28 @@ nav {
 
 
 }
+@media (min-width: 768px)
+.lesmenu {
+    width: 100%;
+}
 
 .menu {
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 24rem;
+    left: 26.5%;
+
 }
 
 .menu > li {
-
+    font-size: 2em;
     color: white;
     width: 100px;
-    height: 37px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
+
 
 }
 
@@ -104,21 +114,22 @@ ul {
 
 
 .menudeux {
+    font-size: 2em;
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 30rem;
+    left: 32%;
     border-right:  1px gray;
+    margin-left: 10px;
 }
 
 .menudeux > li {
 
     color: white;
     width: 100px;
-    height: 37px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
 
 }
@@ -172,21 +183,22 @@ ul {
 }
 
 .menu3 {
+    font-size: 2em;
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 37rem;
+    left: 37%;
     border-right:  1px gray;
+    margin-left: 20px;
 }
 
 .menu3 > li {
 
     color: white;
     width: 100px;
-    height: 37px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
 
 }
@@ -210,22 +222,22 @@ ul {
 }
 
 .menu4 {
-
+    font-size: 2em;
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 44rem;
+    left: 43%;
     border-right:  1px gray;
+    margin-left: 20px;
 }
 
 .menu4 > li {
 
     color: white;
-    width: 150px;
-    height: 37px;
+    width: 130px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
 
 }
@@ -279,22 +291,22 @@ ul {
 }
 
 .menu5 {
-
+    font-size: 2em;
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 54rem;
+    left: 50%;
     border-right:  1px gray;
+    margin-left: 40px;
 }
 
 .menu5 > li {
 
     color: white;
-    width: 120px;
-    height: 37px;
+    width: 100px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
 
 }
@@ -348,22 +360,22 @@ ul {
 }
 
 .menu6 {
-
+    font-size: 2em;
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 62rem;
+    left: 56%;
     border-right:  1px gray;
+    margin-left: 60px;
 }
 
 .menu6 > li {
 
     color: white;
-    width: 70px;
-    height: 37px;
+    width: 50px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
 
 }
@@ -417,22 +429,22 @@ ul {
 }
 
 .menu7 {
-
+    font-size: 2em;
     display: block;
     padding-bottom: 50px;
     position: fixed;
     top: 0;
-    left: 67rem;
+    left: 60%;
     border-right:  1px gray;
+    margin-left: 70px;
 }
 
 .menu7 > li {
 
     color: white;
     width: 160px;
-    height: 37px;
+    height: 40px;
     cursor: pointer;
-    font-size: 1.4em;
     padding-top: 30px;
 
 }
@@ -487,8 +499,8 @@ ul {
 
 #searchbar {
     position:relative;
-    bottom: 70px;
-    right: 5%;
+    bottom: 90px;
+
     width:200px;
     height:auto;
     text-align: center;
@@ -528,6 +540,8 @@ i {
     color: white;
     display: inline-block;
     margin-left: 13rem;
+    position: relative;
+    bottom: 30px;
     width: auto;
     height: 40px;
     background-color: #605f5f;
