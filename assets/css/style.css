@@ -756,7 +756,7 @@ b:hover {
 }
 
 footer {
-    height: 200px;
+    height: 150px;
     bottom:0;
     margin-left: 10%;
     width:80%;
@@ -768,7 +768,7 @@ footer {
 
 .logo2 {
     width: 5%;
-    height: 33%;
+    height: 60%;
     background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg");
     background-size: cover;
     background-position: center;
@@ -786,12 +786,13 @@ footer p {
 footer li {
     display: inline;
     float: right;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 footer a {
     text-decoration-line: none;
-    color: #093fa8;
+    color: #2f5cb2;
+    font-size: 0.9em;
 }
 
 
